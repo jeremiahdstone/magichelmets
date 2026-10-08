@@ -1,0 +1,1 @@
+scoreboard players set @s keeper_growth 0

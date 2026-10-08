@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:armor",
+                  "id": "helmets:diamond_helmet_armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "minecraft:armor_toughness",
+                  "id": "helmets:diamond_helmet_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJhOTBmOGNkNWE4NjIyYTlhNDA0NDU0MmNkMTJiZTlkYzg3YTU5ZTVmYWI1NjIwOTZiMjJmYTc1YTBhOGEwMSJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_name": {
+                "text": "Keeper's Helm",
+                "color": "dark_green",
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "legendary_helm": {
+                  "id": "keeper"
+                }
+              },
+              "minecraft:lore": [
+                {
+                  "text": "One of the four helms.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Luck I • Hero of the Village I",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Regeneration near villagers",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Nearby crops grow faster",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "25 × 5 × 25 growth aura",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
