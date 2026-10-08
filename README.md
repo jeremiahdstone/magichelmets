@@ -52,8 +52,6 @@ For combat and awareness.
 - While sneaking, gives nearby hostile mobs and players within 24 blocks the glowing effect
 - At 4.5 hearts or less, grants Resistance II and Speed I for 3 seconds; 30-second cooldown
 
-Vision includes zombie villagers. Glow uses Minecraft's default outline color and does not change target team assignments.
-
 Get one with `/function helmets:warrior/give`.
 
 ## Commands
